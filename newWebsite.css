@@ -54,7 +54,7 @@
 
 .category .title {
     background-color: #f8f8f8;
-    color:#ff0000;
+    color: #e10909;
     text-align: center;
     font-size: 23px;
     padding: 10px 0;
@@ -79,4 +79,5 @@
 .list p {
     text-align: center;
     font-size: 14px;
+    padding-top: 5px;
 }
