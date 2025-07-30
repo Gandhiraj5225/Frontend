@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff0000;
+}
+
+.logo {
+    height: 38px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.nav-item {
+    color: white;
+    padding: 25px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #8080801f;
+    color: #9b9b9b;
+}
+
+.fizzy-logo {
+    width: 180px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    column-gap: 15px;
+}
+
+.action-item {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+}
+
+.category .title {
+    background-color: #f8f8f8;
+    color:#ff0000;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px 0;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 75px;
+    padding: 40px
+}
+
+.list img {
+    width: 125px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 1px 9px 13px 1px #afafaf63;
+}
+
+.list p {
+    text-align: center;
+    font-size: 14px;
+}
