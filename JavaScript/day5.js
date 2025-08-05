@@ -1,0 +1,34 @@
+//Switch
+let day = 2;
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+        case 2:
+            console.log("Tuesday");
+            break;
+            case 3:
+                console.log("Wednesday");
+                break;
+                case 4:
+                    console.log("Thursday");
+                    break;
+                    default:
+                        console.log("Weekdays");
+}
+let day1 = 1;
+switch (day1) {
+    case 1:
+        console.log("Monday");
+        case 2:
+            console.log("Tuesday");
+            break;
+            case 3:
+                console.log("Wednesday");
+                break;
+                case 4:
+                    console.log("Thursday");
+                    break;
+                    default:
+                        console.log("Weekdays");
+}
